@@ -1,4 +1,4 @@
-aside.bck.dark.column_3
+aside.bck.dark.column_3.sidebar
   article.margin-top.margin-bottom
     = image_tag user.avatar, class: 'responsive padding-left padding-top padding-right'
     .margin-left.margin-right
@@ -6,3 +6,10 @@ aside.bck.dark.column_3
       = link_to '#', class: 'block' do
         span.icon.twitter
         = user.username
+    hr
+    .row.padding-bottom
+      .column_3.center.text
+        a.button href="#" = t 'user.edit'
+    .row.padding-top.padding-bottom
+      .column_3.center.text
+        = link_to t('user.logout'), destroy_user_session_path, class: 'button secondary', method: 'delete'

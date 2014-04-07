@@ -29,9 +29,11 @@ ja:
   user:
     login: ログイン
     login_failed: ログイン失敗
+    logout: ログアウト
     username: ユーザ名
     password: パスワード
     remember_me: 保存
+    edit: プロフィール編集
   team:
     title: チーム
   btn:

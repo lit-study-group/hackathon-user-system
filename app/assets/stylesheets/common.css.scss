@@ -5,6 +5,11 @@
 
 body {
   font-family: "Hannari", "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+  background-color: #dfdfdf;
+  &>.row {
+    background-color: #ffffff;
+    height: 500px;
+  }
 }
 
 body section.landing h1 {
@@ -14,4 +19,12 @@ body section.landing h1 {
 .large-avatar {
   height: 200px;
   width: 200px;
+}
+
+.sidebar {
+  margin: 0;
+  min-height: 100%;
+  .button {
+    font-size: 0.9em;
+  }
 }
