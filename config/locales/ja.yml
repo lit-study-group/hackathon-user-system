@@ -32,9 +32,20 @@ ja:
     logout: ログアウト
     username: ユーザ名
     password: パスワード
+    password_confirmation: パスワード確認
     remember_me: 保存
     edit: プロフィール編集
+    edit_failed: 編集失敗
+    name: 名前
   team:
     title: チーム
   btn:
     close: 閉じる
+    save: 保存
+  flash:
+    saved: 保存されました
+    error: エラーが発生しました
+  errors:
+    user:
+      password_confirmation:
+        bad_match: パスワード確認が正しくありません

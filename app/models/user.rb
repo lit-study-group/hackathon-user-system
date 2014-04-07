@@ -22,5 +22,18 @@
 class User < ActiveRecord::Base
   devise :database_authenticatable, :rememberable, :trackable
 
+  validates :username, presence: true, length: { minimum: 3 }
+  validates :name, presence: true, length: { minimum: 3 }
+  validates :password, presence: { on: :create}, length: { minimum: 5, on: :create }
+  validate :correct_password_confirmation
+
   belongs_to :team
+
+  protected
+  def correct_password_confirmation
+    return if self.password.nil? || self.password_confirmation.nil?
+    if self.password != self.password_confirmation
+      errors[:password_confirmation] = 'errors.user.password_confirmation.bad_match'
+    end
+  end
 end

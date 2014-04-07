@@ -9,4 +9,6 @@ HackathonUserSystem::Application.routes.draw do
     post   '/login' => 'devise/sessions#create', as: 'user_session'
     delete '/logout' => 'devise/sessions#destroy', as: 'destroy_user_session'
   end
+
+  patch 'profile/update', to: 'users#update', as: 'update_profile'
 end

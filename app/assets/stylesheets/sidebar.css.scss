@@ -1,0 +1,10 @@
+.sidebar {
+  margin: 0;
+  min-height: 100%;
+  .button {
+    font-size: 0.9em;
+    &.large {
+      font-size: 1.1em;
+    }
+  }
+}

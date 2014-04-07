@@ -3,7 +3,9 @@ header.bck.light.padding.color.white
     div class="column_6"
       = link_to root_path do
         h2.text.italic.thin = t('general.title')
-    nav class="column_6 text right bold"
+    - if flash[:success]
+        .flash.success.column_3 = t flash[:success]
+    nav.column_6.text.right.bold
       - unless user_signed_in?
         button.button.small data-tuktuk-modal="login_modal" = t 'user.login'
 
