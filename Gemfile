@@ -17,4 +17,5 @@ gem 'cancan'
 
 group :development, :test do
   gem 'jazz_hands'
+  gem 'annotate'
 end
