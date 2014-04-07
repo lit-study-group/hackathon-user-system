@@ -3,4 +3,4 @@
 
 # asset 'bootstrap'
 
-asset 'tuktuk'
+asset 'tuktuk', '0.7.4'

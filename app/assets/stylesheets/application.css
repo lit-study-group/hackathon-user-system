@@ -11,6 +11,6 @@
  *= require_self
  *= require tuktuk/tuktuk
  *= require tuktuk/tuktuk.icons
- *= require tuktuk/tuktuk.theme.default
+ *= require tuktuk/tuktuk.theme
  *= require_tree .
  */

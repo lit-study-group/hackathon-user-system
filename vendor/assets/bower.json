@@ -1,6 +1,6 @@
 {
   "name": "dsl-generated dependencies",
   "dependencies": {
-    "tuktuk": "latest"
+    "tuktuk": "0.7.4"
   }
 }
