@@ -1,0 +1,29 @@
+ja:
+  general:
+    title: Spring Hackathon
+    what_is: Spring Hackathonとは
+    explanation: |
+      Spring Hackathonは中高生に
+      役立つアプリケーションやツールを作るために
+      2日をかけて開催されているハッカソン。
+  applications:
+    lit_overflow_title: LiT Overflow!
+    lit_overflow: |
+      Facebookのグループはプログラミングの質問に適しているとは言えない。
+      コードを書くとハイライトされる、典型的な質問に対しては、質問内容を解析して自動で関連ページの候補を表示させるなど、質問に適したWebサービスを開発する。
+    todo_list_title: 捗管理アプリ
+    todo_list: |
+      キャンプの１日の始まりに生徒にToDoを設定してもらうWindows / Mac用アプリ。
+      達成した項目にチェックを入れることで自動的にGitでcommit / pushされる。
+      生徒のアプリを管理する手間も無くなり、Gitを使った様々なメリットを享受することができる。
+    picture_app_title: 顔写真管理アプリ
+    picture_app: |
+      顔認識を利用して生徒の顔写真を分類する。
+      あらかじめ学習をさせておくことで、写真に写っている生徒を取得する。
+      最終日のムービーを制作する時間の短縮を狙う。
+    online_learning_title: オンライン学習
+    online_learning: |
+      既に数多くのサービスが存在するが、スクールのシラバスに適したオンライン学習アプリを作成する。
+      週１、あるいは隔週のスクールでは、自宅でやっているか／やっていないかで大きく差が出る。
+  btn:
+    login: ログイン
