@@ -1,5 +1,6 @@
 ja:
   general:
+    organization: HackParty
     title: Spring Hackathon
     what_is: Spring Hackathonとは
     explanation: |
@@ -16,9 +17,9 @@ ja:
       キャンプの１日の始まりに生徒にToDoを設定してもらうWindows / Mac用アプリ。
       達成した項目にチェックを入れることで自動的にGitでcommit / pushされる。
       生徒のアプリを管理する手間も無くなり、Gitを使った様々なメリットを享受することができる。
-    picture_app_title: 顔写真管理アプリ
+    picture_app_title: 顔写真管理
     picture_app: |
-      顔認識を利用して生徒の顔写真を分類する。
+      顔認識で生徒の顔写真を分類する。
       あらかじめ学習をさせておくことで、写真に写っている生徒を取得する。
       最終日のムービーを制作する時間の短縮を狙う。
     online_learning_title: オンライン学習
