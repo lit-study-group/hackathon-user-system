@@ -26,5 +26,11 @@ ja:
     online_learning: |
       既に数多くのサービスが存在するが、スクールのシラバスに適したオンライン学習アプリを作成する。
       週１、あるいは隔週のスクールでは、自宅でやっているか／やっていないかで大きく差が出る。
-  btn:
+  user:
     login: ログイン
+    login_failed: ログイン失敗
+    username: ユーザ名
+    password: パスワード
+    remember_me: 保存
+  btn:
+    close: 閉じる

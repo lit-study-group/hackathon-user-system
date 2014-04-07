@@ -2,5 +2,9 @@ header class="bck dark padding color white"
   div class="row"
     div class="column_6"
       h2 class="text italic thin" = t 'general.title'
-    nav class="column_6  text right bold"
-      a href="#" class="button small" = t 'btn.login'
+    nav class="column_6 text right bold"
+      - if user_signed_in?
+        a href="#" = 'foo'
+      - else
+        button data-tuktuk-modal="login_modal" class="button small" = t 'user.login'
+
