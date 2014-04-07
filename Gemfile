@@ -15,6 +15,8 @@ gem 'jbuilder', '~> 1.2'
 gem 'devise'
 gem 'cancan'
 
+gem 'slim-rails'
+
 group :development, :test do
   gem 'jazz_hands'
   gem 'annotate'
