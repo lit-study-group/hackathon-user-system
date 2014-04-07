@@ -1,0 +1,28 @@
+development:
+  adapter: postgresql
+  encoding: unicode
+  database: hackathon_system_development
+  pool: 5
+  timeout: 5000
+  username: hackathon_system
+  password: foobar
+  host: localhost
+
+test:
+  adapter: postgresql
+  encoding: unicode
+  database: hackathon_system_test
+  pool: 5
+  timeout: 5000
+  username: hackathon_system
+  password: foobar
+  host: localhost
+
+production:
+  adapter: postgresql
+  encoding: unicode
+  database: hackathon_system_production
+  pool: 5
+  timeout: 5000
+  username: hackathon_system
+  password:
