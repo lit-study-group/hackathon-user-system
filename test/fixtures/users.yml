@@ -17,6 +17,8 @@
 #  admin                  :boolean          default(FALSE), not null
 #  created_at             :datetime
 #  updated_at             :datetime
+#  team_id                :integer          not null
+#  avatar                 :string(255)
 #
 
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html

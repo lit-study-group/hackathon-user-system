@@ -6,11 +6,24 @@
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
 
-User.first_or_create!(
+Team.first_or_create!(
+  name: 'FooBarerz'
+)
+
+User.where(username: 'foobar').first_or_create!(
   username: 'foobar',
   password: 'foobar',
   admin: true,
   name: 'Lorem Ipsum',
+  team_id: 1,
+  avatar: 'study_group.jpg'
+)
+
+User.where(username: 'barfoo').first_or_create!(
+  username: 'barfoo',
+  password: 'foobar',
+  admin: true,
+  name: 'Ipsum Lorem',
   team_id: 1,
   avatar: 'study_group.jpg'
 )
