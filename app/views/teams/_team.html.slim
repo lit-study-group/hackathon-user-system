@@ -2,5 +2,11 @@
   = link_to '#' do
     header.text.center
       h4 = team.name
-    article
-      = image_tag "study_group.jpg", class: 'responsive'
+  article
+    = image_tag "study_group.jpg", class: 'responsive'
+    footer
+      - 2.times do
+        .avatar-row
+          - 3.times do
+            = link_to '#' do
+              = image_tag "study_group.jpg"

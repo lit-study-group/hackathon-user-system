@@ -1,7 +1,30 @@
+.teams {
+  margin-top: 10px;
+  .team {
+    margin-bottom: 30px;
+  }
+}
+
 .team {
+  background-color: #EFEFEF;
   header {
     width: 100%;
     background: none repeat scroll 0 0 #1ABC9C;
     color: #ffffff;
+  }
+
+  footer {
+    margin-top: 10px;
+    padding-left: 3%;
+    .avatar-row {
+      img {
+        float: left;
+        border-radius: 50%;
+        margin: 0 3% 0 0;
+        height: 100px;
+        width: 30%;
+        margin-bottom: 10px;
+      }
+    }
   }
 }

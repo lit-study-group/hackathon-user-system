@@ -4,7 +4,8 @@ section.bck.ligthest.column_9.margin
       span.icon.star.color.theme
       = t 'team.title'
 
-    - 5.times do
-      .row
-        - 3.times
-          == render 'teams/team', team: current_user.team
+    .teams
+      - 5.times do
+        .row
+          - 3.times
+            == render 'teams/team', team: current_user.team
