@@ -5,3 +5,4 @@ $ ->
 
   $('[data-tuktuk=modal] [data-modal=close]').click ->
     $(this).parents('[data-tuktuk=modal]').removeClass 'active'
+
