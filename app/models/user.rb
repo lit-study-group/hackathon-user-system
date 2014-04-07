@@ -20,8 +20,7 @@
 #
 
 class User < ActiveRecord::Base
-  devise :database_authenticatable,
-         :recoverable, :rememberable, :trackable
+  devise :database_authenticatable, :rememberable, :trackable
 
   belongs_to :team
 end
