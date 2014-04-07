@@ -4,9 +4,14 @@
 }
 
 body {
-  font-family: 'Hannari';
+  font-family: "Hannari", "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
 body section.landing h1 {
   font-size: 7em;
+}
+
+.large-avatar {
+  height: 200px;
+  width: 200px;
 }

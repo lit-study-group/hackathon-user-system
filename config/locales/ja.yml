@@ -32,5 +32,7 @@ ja:
     username: ユーザ名
     password: パスワード
     remember_me: 保存
+  team:
+    title: チーム
   btn:
     close: 閉じる

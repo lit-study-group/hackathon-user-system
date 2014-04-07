@@ -11,5 +11,6 @@ User.first_or_create!(
   password: 'foobar',
   admin: true,
   name: 'Lorem Ipsum',
-  team_id: 1
+  team_id: 1,
+  avatar: 'study_group.jpg'
 )
