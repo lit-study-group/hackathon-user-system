@@ -1,5 +1,10 @@
-section.bck.ligthest.padding.column_4
-  article.padding
+section.bck.ligthest.column_9.margin
+  article
     h4.text.book.inline
       span.icon.star.color.theme
       = t 'team.title'
+
+    - 5.times do
+      .row
+        - 3.times
+          == render 'teams/team', team: current_user.team
