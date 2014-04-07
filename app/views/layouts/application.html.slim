@@ -9,10 +9,8 @@ html
     == render 'layouts/header'
 
     - if user_signed_in?
-      .row
-        == render 'layouts/sidebar', user: current_user
-        == yield
+      == render 'layouts/logged_layout', user: current_user
     - else
-      == yield
+      == render 'layouts/anonymous_layout'
 
     == render 'layouts/footer'

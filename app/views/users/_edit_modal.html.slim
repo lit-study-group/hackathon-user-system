@@ -1,0 +1,6 @@
+#profile_modal.column_5 data-tuktuk="modal"
+  header
+    h4.text.thin.inline = t 'user.edit'
+    button.transparent.small.on-right.inline.icon.remove data-modal="close"
+  article.bck.color
+    == render 'users/form', user: user
