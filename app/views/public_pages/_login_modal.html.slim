@@ -1,0 +1,6 @@
+#login_modal.column_5 data-tuktuk="modal" class="#{'active' if flash[:alert]}"
+  header class="#{'bck alert' if flash[:alert]}"
+    h4.text.thin.inline = t "user.login#{'_failed' if flash[:alert]}"
+    button.transparent.small.on-right.inline.icon.remove data-modal="close"
+  article.bck.color
+    == render 'users/sign_in_form', user: @user

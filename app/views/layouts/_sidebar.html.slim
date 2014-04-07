@@ -3,9 +3,7 @@ aside.bck.dark.column_3.sidebar
     = image_tag user.avatar, class: 'responsive padding-left padding-top padding-right'
     .margin-left.margin-right
       h4.text.bold.color.theme = user.name
-      = link_to '#', class: 'block' do
-        span.icon.twitter
-        = user.username
+      == twitter_link user.username
     hr
     .row.padding-bottom
       .column_3.center.text
