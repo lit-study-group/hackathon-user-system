@@ -1,11 +1,11 @@
-section.bck.darkest.landing.text.center.color.white
+section.bck.light.landing.text.center.white
   .row
     .column_10.offset_1
       h2 = t 'general.organization'
       h3 presents
       h1 = t 'general.title'
 
-section.bck.theme.padding.text.center
+section.bck.lightest.padding.text.center
   .row.padding-bottom
     .column_10.offset_1
       h1.text.book.color.default = t 'general.what_is'
@@ -36,5 +36,5 @@ section.bck.theme.padding.text.center
   header class="#{'bck alert' if flash[:alert]}"
     h4.text.thin.inline = t "user.login#{'_failed' if flash[:alert]}"
     button.transparent.small.on-right.inline.icon.remove data-modal="close"
-  article.bck.light
+  article.bck.color
     == render 'users/sign_in_form', user: @user
