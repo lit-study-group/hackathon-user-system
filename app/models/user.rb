@@ -24,6 +24,8 @@
 class User < ActiveRecord::Base
   devise :database_authenticatable, :rememberable, :trackable
 
+  mount_uploader :avatar, AvatarUploader
+
   validates :username, presence: true, length: { minimum: 3 }
   validates :name, presence: true, length: { minimum: 3 }
   validates :password, presence: { on: :create}, length: { minimum: 5, on: :create }

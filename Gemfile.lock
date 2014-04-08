@@ -41,6 +41,11 @@ GEM
     bower-rails (0.7.1)
     builder (3.1.4)
     cancan (1.6.10)
+    carrierwave (0.10.0)
+      activemodel (>= 3.2.0)
+      activesupport (>= 3.2.0)
+      json (>= 1.7)
+      mime-types (>= 1.16)
     celluloid (0.15.2)
       timers (~> 1.1.0)
     celluloid-io (0.15.0)
@@ -265,6 +270,7 @@ DEPENDENCIES
   better_errors
   bower-rails
   cancan
+  carrierwave
   coffee-rails (~> 4.0.0)
   devise
   devise-i18n

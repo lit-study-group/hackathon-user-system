@@ -22,6 +22,8 @@ gem 'slim-rails'
 gem 'devise'
 gem 'cancan'
 
+gem 'carrierwave'
+
 gem 'rails_admin'
 
 group :development, :test do
