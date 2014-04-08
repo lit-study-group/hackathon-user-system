@@ -12,12 +12,17 @@ gem 'turbolinks'
 gem 'jquery-turbolinks'
 gem 'jbuilder', '~> 1.2'
 
+gem 'rails-i18n'
+gem 'devise-i18n'
+
 gem 'bower-rails'
 
 gem 'slim-rails'
 
 gem 'devise'
 gem 'cancan'
+
+gem 'rails_admin'
 
 group :development, :test do
   gem 'jazz_hands'
